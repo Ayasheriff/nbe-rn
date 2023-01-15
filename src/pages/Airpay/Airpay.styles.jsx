@@ -1,0 +1,52 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  footerIcons: {
+    backgroundColor: 'white',
+    width: '100%',
+    height: 75,
+    position: 'absolute',
+    bottom: -105,
+    borderTopEndRadius: 20,
+    borderTopStartRadius: 20,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 10,
+  },
+  icon: {
+    backgroundColor: 'rgba(241, 243, 251, 1)',
+    paddingLeft: 12,
+    paddingRight: 12,
+    paddingBottom: 5,
+    paddingTop: 5,
+    borderRadius: 15,
+  },
+  cardDash: {
+    width: 346,
+    height: 216,
+    borderRadius: 20,
+    borderStyle: 'dashed',
+    borderWidth: 2,
+    borderColor: 'rgba(0, 114, 54, 1)',
+    margin: 20,
+    marginTop: 50,
+    alignSelf: 'center',
+  },
+  cardTxt: {
+    textAlign: 'center',
+    fontSize: 20,
+    fontWeight: '500',
+    color: 'rgba(0, 114, 54, 0.77)',
+    marginTop: 80,
+  },
+  paynow: {
+    backgroundColor: 'rgba(0, 114, 54, 1)',
+    borderRadius: 20,
+    width: '80%',
+    height: 50,
+    alignSelf: 'center',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    marginTop: 30,
+  },
+});
